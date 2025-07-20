@@ -1,0 +1,38 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0D1B2A;
+  color: #E0E1DD;
+}
+header, footer {
+  background-color: #1B263B;
+  text-align: center;
+  padding: 20px;
+}
+header img {
+  max-width: 100px;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: #F0A500;
+  margin: 0 10px;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
